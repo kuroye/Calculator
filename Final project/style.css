@@ -1,0 +1,108 @@
+.background {
+  background-color: lightblue;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#nav-container{
+  background-color: grey;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.calculator {
+    position: relative ;
+    top: 150px;
+    left: 200px;
+    height: 500px;
+    width: 400px;
+    background-color: grey;
+    box-shadow: 2px 3px 10px #555;
+    border-radius: 2%
+}
+
+.number {
+  position: relative;
+  left: 900px;
+  bottom: 300px;
+  height: 100px;
+  width: 250px;
+  background-color: grey;
+  box-shadow: 2px 3px 10px #555;
+  border-radius: 2%
+}
+
+#number-text {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  color: white;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.result {
+  position: relative;
+  left: 900px;
+  bottom: 100px;
+  height: 100px;
+  width: 250px;
+  background-color: grey;
+  box-shadow: 2px 3px 10px #555;
+  border-radius: 2%
+}
+
+#result-text {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  color: white;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.clear {
+  position: relative;
+  left: 720px;
+  bottom: 340px;
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  box-shadow: 2px 3px 10px #555;
+  border-radius: 2%
+}
+
+.input {
+  position: relative;
+  left:115px;
+  top:30px;
+  color: white;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.output {
+  position: relative;
+  left:115px;
+  top:30px;
+  color: white;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
